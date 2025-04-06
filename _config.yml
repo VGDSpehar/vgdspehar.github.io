@@ -22,7 +22,7 @@ title: Victor's Journal
 email: vgdspehar@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A blog for documenting my thoughts and progress in different area.
-  I'll write here about the Linux Kernel, virtualization, distributed algorithm and everything that goes through my mind.
+  I'll write here about the Linux Kernel, virtualization, distributed systems and everything that goes through my mind.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://vgdspehar.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  VGDSpehar
