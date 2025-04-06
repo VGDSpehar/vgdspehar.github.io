@@ -15,6 +15,8 @@ Linux, QEMU, OpenWrt, all that on a background of a distributed system, bundled 
 
 I was already familiar with different mesh projects such as Meshtastic (lora based mesh network) and obviously heard about Guifi.net but it was my first time hearing about LibreMesh, and I must say I find it a fantastic project and I hope to see it deployed in Paris very soon ! Something like "panamesh" would sound great ? First I need to convince my lora peers!
 
+---
+
 ## 🧠 About the Project
 
 The idea is to bring Wi-Fi virtualization capabilities to LibreMesh through QEMU, using the Linux kernel module `mac80211_hwsim`. This would allow for:
@@ -37,7 +39,8 @@ Here are a few resources I found particularly interesting while researching for 
 - [Emulating WLAN in Linux – Part II: mac80211_hwsim](https://www.linuxembedded.fr/2021/01/emulating-wlan-in-linux-part-ii-mac80211hwsim)
 - [Guifi.net](https://guifi.net/)
 - [vwifi](https://github.com/Raizo62/vwifi)
+
 ---
 
-Thanks for reading! I’ll be updating this blog as I progress through — no matter how it ends up I will have learn a lot.
+Thanks for reading! I’ll be updating this blog as I progress through — no matter how it ends up I will have learned a lot.
 
