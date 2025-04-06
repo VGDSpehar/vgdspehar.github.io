@@ -5,27 +5,26 @@ date:   2025-04-05
 categories: gsoc libremesh openwrt opensource wifi linux kernel
 ---
 
-`YEAR-MONTH-DAY-title.MARKUP`
-
 Hey hey !
 
 This is my first post to document my journey for **Google Summer of Code 2025**.
 
-After going through the different organisations selected to participate in GSOC 2025, Freifunk peaked my interest (I was just coming back from a trip to Germany and discover about them there) with a special mention for the project proposed by Javier Jorge titled : *Adding Wi-Fi Support to QEMU Simulations in LibreMesh*. 
+After going through the different organisations selected to participate in GSOC 2025, Freifunk peaked my interest (I was just coming back from a trip to Germany and discovered about them during my trip) with a special mention for the project proposed by Javier Jorge titled : *Adding Wi-Fi Support to QEMU Simulations in LibreMesh*. 
 
-Linux, QEMU, OpenWrt, all that with a background of a distributed system, all in one project ? All my subjects of predilection all in one project : that's my luck ! 
+Linux, QEMU, OpenWrt, all that on a background of a distributed system, bundled in one project ? Every one of my subjects of predilection all in one project : that's my luck ! 
 
-I was already familiar with different mesh projects such as Meshtastic (lora based mesh network) and obviously Guifi.net but never heard of LibreMesh until now, but I find it a fantastic project and will try to convince my Parisian lora peers to maybe complete their network with a wifi one. 
+I was already familiar with different mesh projects such as Meshtastic (lora based mesh network) and obviously heard about Guifi.net but it was my first time hearing about LibreMesh, and I must say I find it a fantastic project and I hope to see it deployed in Paris very soon ! Something like "panamesh" would sound great ? First I need to convince my lora peers!
 
 ## 🧠 About the Project
 
 The idea is to bring Wi-Fi virtualization capabilities to LibreMesh through QEMU, using the Linux kernel module `mac80211_hwsim`. This would allow for:
 
-- Lighter, faster, and more flexible testing setups
-- Simulating complex wireless topologies
-- Reducing hardware dependence during development and CI
+- Lighter, faster, and more flexible testing (no need to setup physical hardware anymore)
+- Simulating different kinds of topology
+- Introducing controlled packet loss and experimentating on it
+- Extension of this could include : roaming simulation, adding (virtually) physical obstacle and much more.
 
-This could be a real game-changer for automated testing in LibreMesh — testing routing protocols in various topologies without needing physical devices for each node.
+I believe this could be really interesting for LibreMesh and could lead to some interesting experimentations !
 
 ---
 
